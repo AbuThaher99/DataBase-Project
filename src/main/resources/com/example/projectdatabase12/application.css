@@ -1,0 +1,62 @@
+.button {
+  -fx-color-one: #d6d6d6;
+  -fx-color-two: #d9d9d9;
+  -fx-color-three: #f6f6f6;
+
+  -fx-background-color:
+      linear-gradient(#f2f2f2, -fx-color-one),
+      linear-gradient(#fcfcfc 0.0%, -fx-color-two 20.0%, -fx-color-one 100.0%),
+      linear-gradient(#dddddd 0.0%, -fx-color-three 50.0%);
+  -fx-background-radius: 8.0, 7.0, 6.0;
+  -fx-background-insets: 0.0, 1.0, 2.0;
+  -fx-text-fill: black;
+  -fx-effect: dropshadow( three-pass-box, rgba(0.0, 0.0, 0.0, 0.6), 5.0, 0.0, 0.0, 1.0);
+}
+
+.button:hover {
+  -fx-color-one: #1cefff;
+  -fx-color-two: #1cefff;
+  -fx-color-three: #1cefff;
+}
+
+.button:pressed {
+  -fx-color-one: #235891;
+  -fx-color-two: #235891;
+  -fx-color-three: #235891;
+}
+
+
+.text-field{
+    -fx-border-radius: 50.0%; 
+                -fx-font-size: 12.0;
+                -fx-font-family: "Assaf Font";
+                -fx-font-weight: bold; 
+                -fx-background-color: #f6f6f6;
+                -fx-border-color: red; 
+                -fx-border-width:  3.0px;
+                -fx-background-radius: 25.0px;
+                -fx-pref-column-count:25.0;
+
+                }
+
+
+.label {
+    -fx-font-size: 12.0px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255.0,255.0,255.0,0.5) , 0.0,0.0,0.0,1.0 );
+}
+
+
+.text-area {
+
+                -fx-font-size: 14.0;
+                -fx-font-family: "Assaf Font";
+                -fx-font-weight: bold; 
+                -fx-background-color: #f6f6f6;
+                -fx-border-color: red; 
+                -fx-border-width:  3.0px;
+                -fx-background-radius: 25.0px;
+
+
+}
